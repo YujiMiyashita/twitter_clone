@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <ul class="functions functions-left">
+          <li>
+            <a href="#"><i class="fas fa-home fa-lg" style="color: #FA743E !important;"></i><span style="color: #FA743E !important;">ホーム</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-paper-plane fa-lg"></i><span>モーメント</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-bell fa-lg"></i><span>通知</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-envelope fa-lg"></i><span>メッセージ</span></a>
+          </li>
+        </ul>
+
+        <ul class="functions functions-right">
+          <li>
+            <form class="form-search" action="index.html" method="post">
+              <input type="text" name="" value="" placeholder="キーワード検索" class="search-input">
+              <span class="search-input-icon"><i class="fa fa-search fa-lg"></i></span>
+            </form>
+          </li>
+          <li>
+            <img src="img/icon.png" alt="" height="32" width="32" style="border-radius: 50%;">
+          </li>
+          <li>
+            <form class="form-search" action="index.html" method="post">
+              <input type="submit" name="" value="ツイート" placeholder="" class="button-primary">
+            </form>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="clearfix">
+      <div class="left-sidebar">
+        <div class="profile-box">
+          <div class="background-image">
+          </div>
+          <div class="profile">
+            <img src="img/icon.png" alt="" width="72" height="72">
+            <div class="nick_name">
+              <a href="#">Yuji-P <i class="fas fa-lock" style="color: black;"></i></a>
+              <p>@ruby_on_miya</p>
+            </div>
+
+            <div class="tweet-count">
+              <ul>
+                <li>
+                  <a href="#">
+                    <p class="tweet-count-label">ツイート</p>
+                    <p class="tweet-count-number">4,631</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <p class="tweet-count-label">フォロー</p>
+                    <p class="tweet-count-number">277</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <p class="tweet-count-label">フォロワー</p>
+                    <p class="tweet-count-number">253</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="trend">
+          <h2>おすすめトレンド</h2>
+
+          <div class="trend-box">
+            <h3>#家族に空いたくなる映画</h3>
+            <p>本日公開の『リメンバー・ミー』を観て、メキシコ旅行に応募しよう！</p>
+          </div>
+
+          <div class="trend-box">
+            <h3>宮沢りえ</h3>
+            <p><small>22,678件のツイート</small></p>
+          </div>
+
+          <div class="trend-box">
+            <h3>#高知家</h3>
+            <p><small>2,848件のツイート</small></p>
+          </div>
+
+          <div class="trend-box">
+            <h3>剛くん結婚</h3>
+            <p><small>16,479件のツイート</small></p>
+          </div>
+
+          <div class="trend-box">
+            <h3>#JK用語クイズ</h3>
+          </div>
+
+          <div class="trend-box">
+            <h3>#センバツ</h3>
+            <p><small>10,894件のツイート</small></p>
+          </div>
+
+          <div class="trend-box">
+            <h3>#ヒルナンデス</h3>
+            <p><small>2,321件のツイート</small></p>
+          </div>
+
+          <div class="trend-box">
+            <h3>#生で見たことある有名人</h3>
+            <p><small>24,889件のツイート</small></p>
+          </div>
+
+          <div class="trend-box">
+            <h3>水着ジャンヌ</h3>
+            <p><small>8,318件のツイート</small></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- timeline -->
+      <div class="timeline">
+        <div class="tweet-box">
+          <img src="img/icon.png" alt="" height="32" width="32" class="top-timeline-tweet-box-user-image">
+          <div class="tweet-form-box">
+            <form class="tweet-form" action="index.html" method="post">
+              <input type="text" name="" value="" placeholder="  いまどうしてる？">
+              <span class="tweet-form-icon"><i class="fa fa-file-image fa-lg" style="color: #FDDCCE;"></i></span>
+            </form>
+          </div>
+        </div>
+        <div class="new-tweet-button">
+          <p>新しいツイート5件を見る</p>
+        </div>
+
+        <div class="tweets">
+          <div class="tweet">
+            <div class="content">
+              <img src="img/icon.png" alt="" height="48" width="48" class="timeline-user-image">
+              <strong>Yuji-P</strong>
+              <span class="user-id">@ruby_on_miya・8時間</span>
+              <span class="tweet-option"><i class="fas fa-angle-down fa-lg"></i></span>
+              <p>
+                2018シーズン 順位予想</br>
+                【セリーグ】</br>
+                1.阪神</br>
+                2.広島</br>
+                3.DeNA</br>
+                4.中日</br>
+                5.巨人</br>
+                6.ヤクルト</br>
+                </br>
+                【パリーグ】</br>
+                1.ソフトバンク</br>
+                2.楽天</br>
+                3.オリックス</br>
+                4.西武</br>
+                5.日本ハム</br>
+                6.ロッテ</br>
+              </p>
+
+              <div class="tweet-icons">
+                <span><i class="fa fa-comment"></i> 9</span>
+                <span><i class="fas fa-retweet"></i> 22</span>
+                <span><i class="fa fa-heart"></i> 1</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tweet">
+            <div class="content">
+              <img src="img/icon.png" alt="" height="48" width="48" class="timeline-user-image">
+              <strong>Yuji-P</strong>
+              <span class="user-id">@ruby_on_miya・12時間</span>
+              <span class="tweet-option"><i class="fas fa-angle-down fa-lg"></i></span>
+              <p>ではでは水上まで行って来ます〜(ﾟ∀ﾟ)</p>
+
+              <div class="tweet-icons">
+                <span><i class="fa fa-comment"></i> 9</span>
+                <span><i class="fas fa-retweet"></i> 22</span>
+                <span><i class="fa fa-heart"></i> 1</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tweet">
+            <div class="content">
+              <img src="img/icon.png" alt="" height="48" width="48" class="timeline-user-image">
+              <strong>わかる</strong>
+              <span class="user-id">@wakarana_i・25分前</span>
+              <span class="tweet-option"><i class="fas fa-angle-down fa-lg"></i></span>
+              <p>100文字以上のツイート、あんまり理解できてなくてもいいねすることがあります</p>
+
+              <div class="tweet-icons">
+                <span><i class="fa fa-comment"></i> 9</span>
+                <span><i class="fas fa-retweet"></i> 22</span>
+                <span><i class="fa fa-heart"></i> 1</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tweet">
+            <div class="content">
+              <img src="img/icon.png" alt="" height="48" width="48" class="timeline-user-image">
+              <strong>Yuji-P</strong>
+              <span class="user-id">@ruby_on_miya・1日</span>
+              <span class="tweet-option"><i class="fas fa-angle-down fa-lg"></i></span>
+              <p>私が恋人の腕だけが写り込んでるタイプの写真をあげたら遠慮なくグーで殴ってくれ</p>
+
+              <div class="tweet-icons">
+                <span><i class="fa fa-comment"></i> 9</span>
+                <span><i class="fas fa-retweet"></i> 22</span>
+                <span><i class="fa fa-heart"></i> 1</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tweet">
+            <div class="content">
+              <img src="img/icon.png" alt="" height="48" width="48" class="timeline-user-image">
+              <strong>Yuji-P</strong>
+              <span class="user-id">@ruby_on_miya・1日</span>
+              <span class="tweet-option"><i class="fas fa-angle-down fa-lg"></i></span>
+              <p>2枚目 ＠大前駅</p>
+              <div class="">
+                <img src="img/115.png" alt="" width="100%">
+              </div>
+
+              <div class="tweet-icons">
+                <span><i class="fa fa-comment"></i> 9</span>
+                <span><i class="fas fa-retweet"></i> 22</span>
+                <span><i class="fa fa-heart"></i> 1</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tweet">
+            <div class="content">
+              <img src="img/icon.png" alt="" height="48" width="48" class="timeline-user-image">
+              <strong>Yuji-P</strong>
+              <span class="user-id">@ruby_on_miya・1日</span>
+              <span class="tweet-option"><i class="fas fa-angle-down fa-lg"></i></span>
+              <p>1枚目 ＠祖母島駅</p>
+              <div class="">
+                <img src="img/115-2.png" alt="" width="100%">
+              </div>
+
+              <div class="tweet-icons">
+                <span><i class="fa fa-comment"></i> 9</span>
+                <span><i class="fas fa-retweet"></i> 22</span>
+                <span><i class="fa fa-heart"></i> 1</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tweet">
+            <div class="content">
+              <img src="img/icon.png" alt="" height="48" width="48" class="timeline-user-image">
+              <strong>ｺﾞｰﾙﾃﾞﾝ・ｺﾞﾘﾗ・ﾌﾞﾗｯｸ</strong>
+              <span class="user-id">@ktrg_ktrg・3時間前</span>
+              <span class="tweet-option"><i class="fas fa-angle-down fa-lg"></i></span>
+              <p>ひえー</p>
+
+              <div class="tweet-icons">
+                <span><i class="fa fa-comment"></i> 9</span>
+                <span><i class="fas fa-retweet"></i> 22</span>
+                <span><i class="fa fa-heart"></i> 1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- timeline -->
+
+      <div class="right-sidebar">
+        <div class="follow-users">
+          <h2>おすすめユーザー</h2>
+
+          <div class="follow-user-box">
+            <img src="img/icon.png" alt="" height="48" width="48" class="follow-user-image">
+            <div class="content">
+              <strong>玉田豊夢</strong>
+              <span class="user-id">@TomTamada</span>
+              <button type="button" name="button">フォローする</button>
+            </div>
+          </div>
+
+          <div class="follow-user-box">
+            <img src="img/icon.png" alt="" height="48" width="48" class="follow-user-image">
+            <div class="content">
+              <strong>玉田豊夢</strong>
+              <span class="user-id">@TomTamada</span>
+              <button type="button" name="button">フォローする</button>
+            </div>
+          </div>
+
+          <div class="follow-user-box">
+            <img src="img/icon.png" alt="" height="48" width="48" class="follow-user-image">
+            <div class="content">
+              <strong>玉田豊夢</strong>
+              <span class="user-id">@TomTamada</span>
+              <button type="button" name="button">フォローする</button>
+            </div>
+          </div>
+
+          <div class="follow-users-link">
+            <a href="">知り合いを見つけましょう</a>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="footer-items">
+            <ul>
+              <li class="footer-item">© 2018 Twitter</li>
+              <li class="footer-item">Twitterについて</li>
+              <li class="footer-item">ヘルプセンター</li>
+              <li class="footer-item">規約</li>
+              <li class="footer-item">プライバシーポリシー</li>
+              <li class="footer-item">クッキー</li>
+              <li class="footer-item">広告について</li>
+              <li class="footer-item">ブランド</li>
+              <li class="footer-item">ブログ</li>
+              <li class="footer-item">ステータス</li>
+              <li class="footer-item">アプリ連携</li>
+              <li class="footer-item">採用情報</li>
+              <li class="footer-item">マーケティング</li>
+              <li class="footer-item">広告掲載方法</li>
+              <li class="footer-item">開発者</li>
+            </ul>
+          </div>
+          <div class="ad-link">
+            <a href="#">Twitter広告</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
